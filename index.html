@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Kalkulator segitiga cuyyyy</h1>
+    <h3>hasilnya ada dibawah</h3>
+    <h3>tapi kalian tidak bisa melihat kedua hasilnya bersamaan</h3>
+    <div class="calculator">
+        <h2>Keliling segitiga</h2>
+        <form onsubmit="event.preventDefault(); calculateCircumference();">
+            <input type="number" id="sideA" placeholder="Enter side A">
+            <input type="number" id="sideB" placeholder="Enter side B">
+            <input type="number" id="sideC" placeholder="Enter side C">
+            <button type="submit">hitung</button>
+        </form>
+        <h2>luas segitiga</h2>
+        <form onsubmit="event.preventDefault(); calculateArea();">
+            <input type="number" id="base" placeholder="Enter base">
+            <input type="number" id="height" placeholder="Enter height">
+            <button type="submit">hitung</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
