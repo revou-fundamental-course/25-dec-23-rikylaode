@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mathematics Calculator</title>
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <h1>Kalkulator segitiga cuyyyy</h1>
@@ -13,18 +14,25 @@
     <div class="calculator">
         <h2>Keliling segitiga</h2>
         <form onsubmit="event.preventDefault(); calculateCircumference();">
-            <input type="number" id="sideA" placeholder="Enter side A">
-            <input type="number" id="sideB" placeholder="Enter side B">
-            <input type="number" id="sideC" placeholder="Enter side C">
+            <input type="number" id="sideA" placeholder="masukkan sisi A">
+            <input type="number" id="sideB" placeholder="masukkan sisi B">
+            <input type="number" id="sideC" placeholder="masukkan sisi C">
             <button type="submit">hitung</button>
+            <h4>rumusnya yaitu K = sisi A + sisi B + sisi C</h4>
         </form>
         <h2>luas segitiga</h2>
         <form onsubmit="event.preventDefault(); calculateArea();">
-            <input type="number" id="base" placeholder="Enter base">
-            <input type="number" id="height" placeholder="Enter height">
+            <input type="number" id="base" placeholder="masukkan alas">
+            <input type="number" id="height" placeholder="masukkan tinggi">
             <button type="submit">hitung</button>
+            <h4>rumusnya yaitu L = 1/2 * A * T</h4>
         </form>
         <p id="result"></p>
+        <h5> K = Keliling</h5>
+        <h5> L = luas</h5>
+        <h5> A = alas</h5>
+        <h5> T = tinggi</h5>
+        <h5> s = sisi</h5>
     </div>
     <script src="javascript/script.js"></script>
 </body>
