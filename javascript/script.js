@@ -4,7 +4,7 @@ function calculateCircumference() {
     let sideC = parseFloat(document.getElementById("sideC").value);
 
     let circumference = sideA + sideB + sideC;
-    document.getElementById("result").textContent = "Circumference of Triangle: " + circumference;
+    document.getElementById("result").textContent = "Keliling segitiga adalah: " + circumference;
 }
 
 function calculateArea() {
@@ -12,5 +12,5 @@ function calculateArea() {
     let height = parseFloat(document.getElementById("height").value);
 
     let area = 0.5 * base * height;
-    document.getElementById("result").textContent = "Area of Triangle: " + area;
+    document.getElementById("result").textContent = "luas segitiiga adalah: " + area;
 }
